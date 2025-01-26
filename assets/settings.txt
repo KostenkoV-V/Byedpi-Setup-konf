@@ -1,6 +1,8 @@
--Kt,h -s5 -d10+sh -q5+s -o5+s -b1024 -T5 -f-1 --md5sig --tls-sni=www.google.com --ttl=60 -An -Ku -a5 -An
--Kt,h -s6 -d15+sh -q7+s -o10+s -b1024 -T5 -f-1 --md5sig --tls-sni=www.amazon.com --ttl=50 -An -Ku -a5 -An
--Kt,h -s10 -d20+sh -q15+s -o20+s -b4096 -T20 -f-1 --md5sig --tls-sni=www.amazon.com --ttl=10 -An -Ku -a5 -An
+-Kt,h -s6 -d15+hn -q8+s -o10+sn -b2048 -T10 -f-1 --md5sig --tls-sni=yandex.ru --ttl=64 -An -Ku -a5 -An
+-Kt,h -s7+n -d14+h -q9+s -o7+sn -b1024 -T7 -f-1 --md5sig --tls-sni=mail.ru --ttl=48 -Asn -Ku -a5 -An
+-Kt,h -s5 -d12+sh -q5+s -o5+s -b512 -T5 -f-1 --md5sig --tls-sni=ozon.ru --ttl=32 -An -Ku -a5 -An
+-Kt,h -s4 -d10+h -q7+s -o10+sn -b2048 -T6 -f-1 --md5sig --tls-sni=sberbank.ru --ttl=60 -As -Ku -a5 -An
+-Kt,h -s8+h -d12+hn -q6+s -o8+s -b1024 -T8 -f-1 --md5sig --tls-sni=wildberries.ru --ttl=40 -An -Ku -a5 -An
 
 -Kt,h -n ya.ru -f7 --md5sig -d1 -s0+s -s3+s -s6+s -s9+s -s12+s -s15+s -s20+s -o10000+s -s30+s -An -Ku -a5 -An
 -Kt,h -q1+s -s29+s -o5+s -f-1 --md5sig -Asn -Ku -a5 -An
