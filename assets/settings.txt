@@ -1,3 +1,5 @@
+-Kt,h -n wildberries.ru -d 1+s -O 1 -s 29+s -t 5 -Asn -Ku -a5 -An 
+
 -Kt,h -s6 -d15+hn -q8+s -o10+sn -b2048 -T10 -f-1 --md5sig --tls-sni=yandex.ru --ttl=64 -An -Ku -a5 -An
 -Kt,h -s7+n -d14+h -q9+s -o7+sn -b1024 -T7 -f-1 --md5sig --tls-sni=mail.ru --ttl=48 -Asn -Ku -a5 -An
 -Kt,h -s5 -d12+sh -q5+s -o5+s -b512 -T5 -f-1 --md5sig --tls-sni=ozon.ru --ttl=32 -An -Ku -a5 -An
