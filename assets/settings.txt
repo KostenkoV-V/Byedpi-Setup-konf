@@ -1,3 +1,4 @@
+-Kt,h -s5 -d10+sh -q5+s -o5+s -b1024 -T5 -f-1 --md5sig --tls-sni=www.google.com --ttl=60 -An -Ku -a5 -An
 -Kt,h -n ya.ru -f7 --md5sig -d1 -s0+s -s3+s -s6+s -s9+s -s12+s -s15+s -s20+s -o10000+s -s30+s -An -Ku -a5 -An
 -Kt,h -q1+s -s29+s -o5+s -f-1 --md5sig -Asn -Ku -a5 -An
 -Kt,h -n www.google.com -d 1+s -O 1 -s 25+s -t 5 -An -Ku -a5 -An
